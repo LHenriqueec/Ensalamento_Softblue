@@ -22,7 +22,7 @@ public class ControllerServlet extends HttpServlet {
 	static {
 		
 		try {
-			InputStream is = ControllerServlet.class.getResourceAsStream("/actions.properties");
+			InputStream is = ControllerServlet.class.getResourceAsStream("/action.properties");
 			action = new Properties();
 			action.load(is);
 		
