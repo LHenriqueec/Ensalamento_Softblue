@@ -15,4 +15,16 @@ public class ServiceFactory {
 		
 		return instance;
 	}
+	
+	public AlunoService getAlunoService() {
+		return new AlunoService();
+	}
+	
+	public SalaService getSalaService() {
+		return new SalaService();
+	}
+	
+	public EnsalamentoService getEnsalamentoService() {
+		return new EnsalamentoService();
+	}
 }

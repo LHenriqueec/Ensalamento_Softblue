@@ -4,6 +4,6 @@
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/java"/>
         <property name="java-output-path" value="/Ensalamento_Softblue_Hibernate/build/classes"/>
-        <property name="context-root" value="Ensalamento_Softblue_Hibernate"/>
+        <property name="context-root" value="Projeto"/>
     </wb-module>
 </project-modules>
